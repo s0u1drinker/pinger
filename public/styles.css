@@ -1,0 +1,16 @@
+.text_hide {
+  height: 0;
+  visibility: hidden;
+  width: 0;
+}
+
+#canvas {
+  
+}
+
+.canvas-wrapper {
+  box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+  margin-top: 1rem;
+  overflow-x: scroll;
+  width: 500px;
+}

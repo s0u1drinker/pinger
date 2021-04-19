@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pinger</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="form">
+    <input type="text" id="ip">
+    <button class="btn_ping">Start ping!</button>
+    <button class="btn_ping_stop" disabled>Stop ping!</button>
+  </div>
+  <div class="canvas-wrapper">
+    <canvas id="canvas" width="500" height="300"></canvas>
+  </div>
+  <ul class="stat">
+    <li>Текущее значение: <span class="ping_cur">-</span></li>
+    <li>Максимальное значение: <span class="ping_max">-</span></li>
+    <li>Среднее значение: <span class="ping_avg">-</span></li>
+  </ul>
+  <button class="text-controller"></button>
+  <textarea class="text text_hide" cols="80" rows="10"></textarea>
+  <script src="main.js"></script>
+</body>
+</html>
